@@ -1,0 +1,1 @@
+google-homepage is a mock-up of the Google homepage.
