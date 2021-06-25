@@ -6,32 +6,47 @@
     </head>
     
     <body>
-        <div>
-            <ul>
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img src="img/apps.png"></li>
-                <li>Sign in</li>
+        <div class="navbar">
+            <ul id="navbar-left">
+                <li><a href="#about">About</a></li>
+                <li><a href="#store">Store</a></li>
+            </ul>
+            
+            <ul id="navbar-right">
+                <li><a href="#gmail">Gmail</a></li>
+                <li><a href="#images">Images</a></li>
+                <button id="apps" href="#apps"></button>
+                <button type="submit" id="sign-in">Sign in</button>
             </ul>
         </div>
-
-        <img src="img/googlelogo.png">
-
-        <form>
-            <input type="text" id="search-form" name="search-form">
-        </form>
         
-        <footer>
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search works</li>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+        <div class="content">
+            <img src="img/googlelogo.png" id="logo">
+            
+            <div id="search-container">
+                <input type="text" id="search" name="search" size="50">
+                <img src="img/search.png" id="search-img">
+            </div>
+            
+
+            <div id="search-lucky-buttons">
+                <button type="submit" id="search-button" class="buttons">Google Search</button>
+                <button type="submit" id="lucky-button" class="buttons">I'm Feeling Lucky</button>
+            </div>
+        </div>
+                
+        <div class="footer">
+            <ul id="footer-left">
+                <li><a href="#advertising">Advertising</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#how-search-works">How Search works</a></li>
             </ul>
-        </footer>
+            
+            <ul id="footer-right">
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#terms">Terms</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </div>
     </body>
 </html>
