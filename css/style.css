@@ -141,8 +141,10 @@ li:hover{
 
 #footer-left {
     float: left;
+    margin-left: 10px;
 }
 
 #footer-right {
     float: right;
+    margin-right: 10px;
 }
